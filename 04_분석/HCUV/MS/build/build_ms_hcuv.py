@@ -4,6 +4,9 @@
 #   running title <70 characters, British spelling, AI use described in Methods, main document without identifying information (title page separate), tables at the end.
 #  Sources: ../draft/manuscript_hcuv.md (## sections, [@key] citations, final numbers), content_ms_hcuv.py (title, keywords, highlights, tables, captions), refs_ms_hcuv.json.
 import os, re, json, subprocess
+def _ama_date(d):
+    m = re.fullmatch(r'(\d{1,2}) (\w+) (\d{4})', str(d).strip())
+    return f'{m.group(2)} {int(m.group(1))}, {m.group(3)}' if m else d
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.shared import Pt
@@ -51,7 +54,7 @@ AUTHOR_FIX = {"Gittelsohn": "Gittelsohn A"}
 def ref(k):   # AMA 11th: up to 6 authors, otherwise first 3 + et al; NLM abbreviation; year;vol(issue):pages. doi:
     r = REFS[k]
     if k == "oecd2023health": return "OECD. <i>Health at a Glance 2023: OECD Indicators</i>. OECD Publishing; 2023. doi:10.1787/7a7afb35-en"
-    if r["type"] == "web": return f"{r['authors']}. {r['title']}. Published {r['year']}. Accessed {r['accessed']}. {r['url']}"
+    if r["type"] == "web": return f"{r['authors']}. {r['title']}. Published {r['year']}. Accessed {_ama_date(r['accessed'])}. {r['url']}"
     au = [AUTHOR_FIX.get(a, a) for a in r["authors"]]
     a = ", ".join(au) if len(au) <= 6 else ", ".join(au[:3]) + ", et al"
     t = r["title"].rstrip("."); t += "" if t.endswith(("?", "!")) else "."

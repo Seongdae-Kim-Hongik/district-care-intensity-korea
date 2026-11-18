@@ -1,10 +1,10 @@
-# Medical Aid, physician supply and standardised health care use across Korean districts, 2011-2024
+# Medical Aid, clinics, beds and standardised health care use across Korean districts, 2011-2024
 
 Analysis code for the manuscript
 
-> Kim S. *Medical Aid enrolment rather than physician supply marks the Korean districts with the heaviest health care use.* Submitted for publication.
+> Kim S. *Medical Aid enrolment, clinics and beds and the persistent geography of health care use across Korean districts.* Submitted for publication.
 
-Archived version: Zenodo, https://doi.org/10.5281/zenodo.24332111 (v1.0.0).
+Archived version: Zenodo, https://doi.org/10.5281/zenodo.24332441 (v1.0.1).
 
 The code is openly available under the MIT License.
 

@@ -2,14 +2,14 @@
 import os, re, json, numpy as np, pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__)); AN = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
 N = json.load(open(os.path.join(HERE, "numbers_hcuv.json"), encoding="utf-8"))
-TITLE = "Medical Aid enrolment rather than physician supply marks the Korean districts with the heaviest health care use"
+TITLE = "Medical Aid enrolment, clinics and beds and the persistent geography of health care use across Korean districts"
 RUNNING_TITLE = "Medical Aid, supply and district health care use in Korea"
 KEYWORDS = "Health care utilization; Small-area variation; Supply-sensitive care; Medical Aid; Spatio-temporal analysis; Korea"
 HIGHLIGHTS = [
     "Standardised health care use varied modestly but stably across Korean districts",
     "Almost all variation lay in days per treated resident, not in who was treated",
-    "Heavier-use districts had more Medical Aid enrolment, not more physicians",
-    "Within districts, beds tracked inpatient days and clinics outpatient visits",
+    "Medical Aid enrolment tracked use between districts; physician density did not",
+    "Bed density tracked inpatient days and clinic density outpatient visits",
 ]
 def _irr(T):
     d = pd.read_csv(os.path.join(AN, T, "results_std3", "S3_main_IRR.csv")); d["cov"] = d["cov"].str.replace("ext__", ""); return d.set_index("cov")

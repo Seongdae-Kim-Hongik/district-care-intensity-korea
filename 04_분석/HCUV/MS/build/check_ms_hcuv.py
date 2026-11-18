@@ -88,7 +88,7 @@ ok(not re.search(r"(?i)acting on|acts on|supply-induced|over-use|overuse|natural
 _sn = [int(x) for x in re.findall(r"Tables? S(\d+)", body)]; _f = []; [_f.append(x) for x in _sn if x not in _f]; ok(_f == sorted(_f), f"Supporting tables first-cited in order {_f}")
 for k in range(1, 11): ok(f"Table S{k}." in supt or f"Table S{k} " in supt, f"Supporting Information Table S{k}")
 ok(not re.search(r"(?i)overlap|previously submitted|resubmi|reject|Byung|Chun\b", cov), "cover letter: no overlap, prior submission or excluded reviewer")
-ok(re.search(r"Theme 1", cov) is not None, "cover letter states theme")
+ok(re.search(r"Theme\s+1", cov) is not None, "cover letter states theme")
 # 7. version traces in file names and text
 fn = " ".join(os.path.basename(x) for x in glob.glob(os.path.join(OUT, "**", "*"), recursive=True))
 ok(not re.search(r"(?i)_v\d|v\d\.\d|resub|revised", fn), "no version traces in output file names")
