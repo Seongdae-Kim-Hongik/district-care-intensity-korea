@@ -1,0 +1,906 @@
+{
+ "andersen1995revisiting": {
+  "type": "journal",
+  "authors": [
+   "Andersen RM"
+  ],
+  "title": "Revisiting the behavioral model and access to medical care: does it matter?",
+  "journal": "Journal of Health and Social Behavior",
+  "year": 1995,
+  "vol": "36",
+  "issue": "1",
+  "pages": "1-10",
+  "doi": "",
+  "pmid": "7738325",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "J Health Soc Behav"
+ },
+ "barnard2025geographical": {
+  "type": "journal",
+  "authors": [
+   "Barnard M",
+   "Figueroa JF",
+   "Phelan J",
+   "Orav EJ",
+   "Papanicolas I"
+  ],
+  "title": "Geographical variation in physician supply and its relationship to utilization of care across older adults in the United States",
+  "journal": "Health Affairs Scholar",
+  "year": 2025,
+  "vol": "3",
+  "issue": "7",
+  "pages": "qxaf127",
+  "doi": "10.1093/haschl/qxaf127",
+  "pmid": "40657587",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Aff Sch"
+ },
+ "barrenetxea2021emergency": {
+  "type": "journal",
+  "authors": [
+   "Barrenetxea J",
+   "Tan KB",
+   "Tong R",
+   "Chua K",
+   "Feng Q",
+   "Koh WP",
+   "Chen C"
+  ],
+  "title": "Emergency hospital admissions among older adults living alone in the community",
+  "journal": "BMC Health Services Research",
+  "year": 2021,
+  "vol": "21",
+  "issue": "1",
+  "pages": "1192",
+  "doi": "10.1186/s12913-021-07216-3",
+  "pmid": "34732180",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMC Health Serv Res"
+ },
+ "bell2015explaining": {
+  "type": "journal",
+  "authors": [
+   "Bell A",
+   "Jones K"
+  ],
+  "title": "Explaining fixed effects: random effects modeling of time-series cross-sectional and panel data",
+  "journal": "Political Science Research and Methods",
+  "year": 2015,
+  "vol": "3",
+  "issue": "1",
+  "pages": "133-153",
+  "doi": "10.1017/psrm.2014.7",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Polit Sci Res Methods"
+ },
+ "besag1991bayesian": {
+  "type": "journal",
+  "authors": [
+   "Besag J",
+   "York J",
+   "Mollié A"
+  ],
+  "title": "Bayesian image restoration, with two applications in spatial statistics",
+  "journal": "Annals of the Institute of Statistical Mathematics",
+  "year": 1991,
+  "vol": "43",
+  "issue": "1",
+  "pages": "1-20",
+  "doi": "10.1007/bf00116466",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Ann Inst Stat Math"
+ },
+ "cheolseong2017data": {
+  "type": "journal",
+  "authors": [
+   "Seong SC",
+   "Kim YY",
+   "Khang YH",
+   "Park JH",
+   "Kang HJ",
+   "Lee H",
+   "Do CH",
+   "Song JS",
+   "Bang JH",
+   "Ha S",
+   "Lee EJ",
+   "Shin SA"
+  ],
+  "title": "Data resource profile: the National Health Information Database of the National Health Insurance Service in South Korea",
+  "journal": "International Journal of Epidemiology",
+  "year": 2017,
+  "vol": "46",
+  "issue": "3",
+  "pages": "799-800",
+  "doi": "10.1093/ije/dyw253",
+  "pmid": "27794523",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Int J Epidemiol"
+ },
+ "cho2023effects": {
+  "type": "journal",
+  "authors": [
+   "Cho YM",
+   "Kwon S"
+  ],
+  "title": "Effects of public long-term care insurance on the medical service use by older people in South Korea",
+  "journal": "Health Economics, Policy, and Law",
+  "year": 2023,
+  "vol": "18",
+  "issue": "2",
+  "pages": "154-171",
+  "doi": "10.1017/S174413312200024X",
+  "pmid": "36189771",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Econ Policy Law"
+ },
+ "corallo2014systematic": {
+  "type": "journal",
+  "authors": [
+   "Corallo AN",
+   "Croxford R",
+   "Goodman DC",
+   "Bryan EL",
+   "Srivastava D",
+   "Stukel TA"
+  ],
+  "title": "A systematic review of medical practice variation in OECD countries",
+  "journal": "Health Policy",
+  "year": 2014,
+  "vol": "114",
+  "issue": "1",
+  "pages": "5-14",
+  "doi": "10.1016/j.healthpol.2013.08.002",
+  "pmid": "24054709",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Policy"
+ },
+ "cutler2019physician": {
+  "type": "journal",
+  "authors": [
+   "Cutler D",
+   "Skinner JS",
+   "Stern AD",
+   "Wennberg D"
+  ],
+  "title": "Physician beliefs and patient preferences: a new look at regional variation in health care spending",
+  "journal": "American Economic Journal: Economic Policy",
+  "year": 2019,
+  "vol": "11",
+  "issue": "1",
+  "pages": "192-221",
+  "doi": "10.1257/pol.20150421",
+  "pmid": "32843911",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Am Econ J Econ Policy"
+ },
+ "delamater2013more": {
+  "type": "journal",
+  "authors": [
+   "Delamater PL",
+   "Messina JP",
+   "Grady SC",
+   "WinklerPrins V",
+   "Shortridge AM"
+  ],
+  "title": "Do more hospital beds lead to higher hospitalization rates? A spatial examination of Roemer's Law",
+  "journal": "PLOS ONE",
+  "year": 2013,
+  "vol": "8",
+  "issue": "2",
+  "pages": "e54900",
+  "doi": "10.1371/journal.pone.0054900",
+  "pmid": "23418432",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "PLoS One"
+ },
+ "desalvo2005predicting": {
+  "type": "journal",
+  "authors": [
+   "DeSalvo KB",
+   "Fan VS",
+   "McDonell MB",
+   "Fihn SD"
+  ],
+  "title": "Predicting mortality and healthcare utilization with a single question",
+  "journal": "Health Services Research",
+  "year": 2005,
+  "vol": "40",
+  "issue": "4",
+  "pages": "1234-1246",
+  "doi": "10.1111/j.1475-6773.2005.00404.x",
+  "pmid": "16033502",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Serv Res"
+ },
+ "ding2016economic": {
+  "type": "journal",
+  "authors": [
+   "Ding D",
+   "Lawson KD",
+   "Kolbe-Alexander TL",
+   "Finkelstein EA",
+   "Katzmarzyk PT",
+   "van Mechelen W",
+   "Pratt M"
+  ],
+  "title": "The economic burden of physical inactivity: a global analysis of major non-communicable diseases",
+  "journal": "Lancet",
+  "year": 2016,
+  "vol": "388",
+  "issue": "10051",
+  "pages": "1311-1324",
+  "doi": "10.1016/S0140-6736(16)30383-X",
+  "pmid": "27475266",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Lancet"
+ },
+ "finkelstein2016sources": {
+  "type": "journal",
+  "authors": [
+   "Finkelstein A",
+   "Gentzkow M",
+   "Williams H"
+  ],
+  "title": "Sources of geographic variation in health care: evidence from patient migration",
+  "journal": "The Quarterly Journal of Economics",
+  "year": 2016,
+  "vol": "131",
+  "issue": "4",
+  "pages": "1681-1726",
+  "doi": "10.1093/qje/qjw023",
+  "pmid": "28111482",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Q J Econ"
+ },
+ "fisher2000associations": {
+  "type": "journal",
+  "authors": [
+   "Fisher ES",
+   "Wennberg JE",
+   "Stukel TA",
+   "Skinner JS",
+   "Sharp SM",
+   "Freeman JL",
+   "Gittelsohn AM"
+  ],
+  "title": "Associations among hospital capacity, utilization, and mortality of US Medicare beneficiaries, controlling for sociodemographic factors",
+  "journal": "Health Services Research",
+  "year": 2000,
+  "vol": "34",
+  "issue": "6",
+  "pages": "1351-1362",
+  "doi": "",
+  "pmid": "10654835",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Serv Res"
+ },
+ "fisher2003implicationsa": {
+  "type": "journal",
+  "authors": [
+   "Fisher ES",
+   "Wennberg DE",
+   "Stukel TA",
+   "Gottlieb DJ",
+   "Lucas FL",
+   "Pinder EL"
+  ],
+  "title": "The implications of regional variations in Medicare spending. Part 1: the content, quality, and accessibility of care",
+  "journal": "Annals of Internal Medicine",
+  "year": 2003,
+  "vol": "138",
+  "issue": "4",
+  "pages": "273-287",
+  "doi": "10.7326/0003-4819-138-4-200302180-00006",
+  "pmid": "12585825",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Ann Intern Med"
+ },
+ "gelman2014understanding": {
+  "type": "journal",
+  "authors": [
+   "Gelman A",
+   "Hwang J",
+   "Vehtari A"
+  ],
+  "title": "Understanding predictive information criteria for Bayesian models",
+  "journal": "Statistics and Computing",
+  "year": 2014,
+  "vol": "24",
+  "issue": "6",
+  "pages": "997-1016",
+  "doi": "10.1007/s11222-013-9416-2",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Stat Comput"
+ },
+ "ha2022areabased": {
+  "type": "journal",
+  "authors": [
+   "Ha R",
+   "Jung-Choi K"
+  ],
+  "title": "Area-based inequalities and distribution of healthcare resources for managing diabetes in South Korea: a cross-sectional multilevel analysis",
+  "journal": "BMJ Open",
+  "year": 2022,
+  "vol": "12",
+  "issue": "2",
+  "pages": "e055360",
+  "doi": "10.1136/bmjopen-2021-055360",
+  "pmid": "35197349",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMJ Open"
+ },
+ "han2026medical": {
+  "type": "journal",
+  "authors": [
+   "Han C",
+   "Kum H"
+  ],
+  "title": "Medical need or moral hazard? Public insurance transitions and healthcare utilization in South Korea",
+  "journal": "Social Science & Medicine",
+  "year": 2026,
+  "vol": "410",
+  "issue": "",
+  "pages": "119899",
+  "doi": "10.1016/j.socscimed.2026.119899",
+  "pmid": "42879845",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Soc Sci Med"
+ },
+ "kim2020trends": {
+  "type": "journal",
+  "authors": [
+   "Kim J",
+   "Keshavjee S",
+   "Atun R"
+  ],
+  "title": "Trends, patterns and health consequences of multimorbidity among South Korea adults: analysis of nationally representative survey data 2007-2016",
+  "journal": "Journal of Global Health",
+  "year": 2020,
+  "vol": "10",
+  "issue": "2",
+  "pages": "020426",
+  "doi": "10.7189/jogh.10.020426",
+  "pmid": "33274065",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "J Glob Health"
+ },
+ "kim2024area": {
+  "type": "journal",
+  "authors": [
+   "Kim E",
+   "Lee H",
+   "Lloyd-Jones D",
+   "Ko YG",
+   "Kim BG",
+   "Kim HC"
+  ],
+  "title": "Area deprivation and premature cardiovascular mortality: a nationwide population-based study in South Korea",
+  "journal": "BMJ Public Health",
+  "year": 2024,
+  "vol": "2",
+  "issue": "1",
+  "pages": "e000877",
+  "doi": "10.1136/bmjph-2023-000877",
+  "pmid": "40018182",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMJ Public Health"
+ },
+ "kim2026comparison": {
+  "type": "journal",
+  "authors": [
+   "Kim AM",
+   "Ryu D",
+   "Lee JY"
+  ],
+  "title": "Comparison of health care utilisation and spending among National Health Insurance and Medical Aid beneficiaries in Korea",
+  "journal": "BMC Health Services Research",
+  "year": 2026,
+  "vol": "26",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.1186/s12913-026-14352-1",
+  "pmid": "41975406",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMC Health Serv Res"
+ },
+ "kim2026mortality": {
+  "type": "journal",
+  "authors": [
+   "Kim DD",
+   "Choi JS",
+   "Jung HS",
+   "Kwon S",
+   "Jang WM",
+   "Jang H",
+   "Choi HB",
+   "Park S"
+  ],
+  "title": "Mortality, health care use, and spending patterns during South Korea's trainee physicians' walkout",
+  "journal": "JAMA Network Open",
+  "year": 2026,
+  "vol": "9",
+  "issue": "7",
+  "pages": "e2622131",
+  "doi": "10.1001/jamanetworkopen.2026.22131",
+  "pmid": "42390860",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "JAMA Netw Open"
+ },
+ "knorrheld2000bayesian": {
+  "type": "journal",
+  "authors": [
+   "Knorr-Held L"
+  ],
+  "title": "Bayesian modelling of inseparable space-time variation in disease risk",
+  "journal": "Statistics in Medicine",
+  "year": 2000,
+  "vol": "19",
+  "issue": "17-18",
+  "pages": "2555-2567",
+  "doi": "10.1002/1097-0258(20000915/30)19:17/18<2555::aid-sim587>3.0.co;2-#",
+  "pmid": "10960871",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Stat Med"
+ },
+ "kong2020factors": {
+  "type": "journal",
+  "authors": [
+   "Kong NY",
+   "Kim DH"
+  ],
+  "title": "Factors influencing health care use by health insurance subscribers and medical aid beneficiaries: a study based on data from the Korea welfare panel study database",
+  "journal": "BMC Public Health",
+  "year": 2020,
+  "vol": "20",
+  "issue": "1",
+  "pages": "1133",
+  "doi": "10.1186/s12889-020-09073-x",
+  "pmid": "32689960",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMC Public Health"
+ },
+ "kwon2009thirty": {
+  "type": "journal",
+  "authors": [
+   "Kwon S"
+  ],
+  "title": "Thirty years of national health insurance in South Korea: lessons for achieving universal health care coverage",
+  "journal": "Health Policy and Planning",
+  "year": 2009,
+  "vol": "24",
+  "issue": "1",
+  "pages": "63-71",
+  "doi": "10.1093/heapol/czn037",
+  "pmid": "19004861",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Policy Plan"
+ },
+ "lee2017effect": {
+  "type": "journal",
+  "authors": [
+   "Lee HJ",
+   "Jang SI",
+   "Park EC"
+  ],
+  "title": "The effect of increasing the coinsurance rate on outpatient utilization of healthcare services in South Korea",
+  "journal": "BMC Health Services Research",
+  "year": 2017,
+  "vol": "17",
+  "issue": "1",
+  "pages": "152",
+  "doi": "10.1186/s12913-017-2076-8",
+  "pmid": "28219377",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMC Health Serv Res"
+ },
+ "lee2020effect": {
+  "type": "journal",
+  "authors": [
+   "Lee DW",
+   "Jang J",
+   "Choi DW",
+   "Jang SI",
+   "Park EC"
+  ],
+  "title": "The effect of shifting medical coverage from National Health Insurance to Medical Aid type I and type II on health care utilization and out-of-pocket spending in South Korea",
+  "journal": "BMC Health Services Research",
+  "year": 2020,
+  "vol": "20",
+  "issue": "1",
+  "pages": "979",
+  "doi": "10.1186/s12913-020-05778-2",
+  "pmid": "33109176",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "BMC Health Serv Res"
+ },
+ "leonard2009association": {
+  "type": "journal",
+  "authors": [
+   "Léonard C",
+   "Stordeur S",
+   "Roberfroid D"
+  ],
+  "title": "Association between physician density and health care consumption: a systematic review of the evidence",
+  "journal": "Health Policy",
+  "year": 2009,
+  "vol": "91",
+  "issue": "2",
+  "pages": "121-134",
+  "doi": "10.1016/j.healthpol.2008.11.013",
+  "pmid": "19150579",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Policy"
+ },
+ "min2016excess": {
+  "type": "journal",
+  "authors": [
+   "Min JY",
+   "Min KB"
+  ],
+  "title": "Excess medical care costs associated with physical inactivity among Korean adults: retrospective cohort study",
+  "journal": "International Journal of Environmental Research and Public Health",
+  "year": 2016,
+  "vol": "13",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.3390/ijerph13010136",
+  "pmid": "26797622",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Int J Environ Res Public Health"
+ },
+ "moran1950notes": {
+  "type": "journal",
+  "authors": [
+   "Moran PAP"
+  ],
+  "title": "Notes on continuous stochastic phenomena",
+  "journal": "Biometrika",
+  "year": 1950,
+  "vol": "37",
+  "issue": "1-2",
+  "pages": "17-23",
+  "doi": "10.1093/biomet/37.1-2.17",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Biometrika"
+ },
+ "morgenstern1995ecologic": {
+  "type": "journal",
+  "authors": [
+   "Morgenstern H"
+  ],
+  "title": "Ecologic studies in epidemiology: concepts, principles, and methods",
+  "journal": "Annual Review of Public Health",
+  "year": 1995,
+  "vol": "16",
+  "issue": "",
+  "pages": "61-81",
+  "doi": "10.1146/annurev.pu.16.050195.000425",
+  "pmid": "7639884",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Annu Rev Public Health"
+ },
+ "oecd2023health": {
+  "type": "journal",
+  "authors": [
+   "OECD"
+  ],
+  "title": "Health at a Glance 2023",
+  "journal": "Health at a Glance",
+  "year": 2023,
+  "vol": "",
+  "issue": "",
+  "pages": "",
+  "doi": "10.1787/7a7afb35-en",
+  "verified": "Crossref 2026-11-13",
+  "raw": "OECD. (2023). <i>Health at a glance 2023: OECD indicators</i>. OECD Publishing. https://doi.org/10.1787/7a7afb35-en"
+ },
+ "ord1995local": {
+  "type": "journal",
+  "authors": [
+   "Ord JK",
+   "Getis A"
+  ],
+  "title": "Local spatial autocorrelation statistics: distributional issues and an application",
+  "journal": "Geographical Analysis",
+  "year": 1995,
+  "vol": "27",
+  "issue": "4",
+  "pages": "286-306",
+  "doi": "10.1111/j.1538-4632.1995.tb00912.x",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Geogr Anal"
+ },
+ "riebler2016intuitive": {
+  "type": "journal",
+  "authors": [
+   "Riebler A",
+   "Sørbye SH",
+   "Simpson D",
+   "Rue H"
+  ],
+  "title": "An intuitive Bayesian spatial model for disease mapping that accounts for scaling",
+  "journal": "Statistical Methods in Medical Research",
+  "year": 2016,
+  "vol": "25",
+  "issue": "4",
+  "pages": "1145-1165",
+  "doi": "10.1177/0962280216660421",
+  "pmid": "27566770",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Stat Methods Med Res"
+ },
+ "roemer1961bed": {
+  "type": "journal",
+  "authors": [
+   "Roemer MI"
+  ],
+  "title": "Bed supply and hospital utilization: a natural experiment",
+  "journal": "Hospitals",
+  "year": 1961,
+  "vol": "35",
+  "issue": "",
+  "pages": "36-42",
+  "doi": "",
+  "pmid": "14493273",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Hospitals"
+ },
+ "rue2009approximate": {
+  "type": "journal",
+  "authors": [
+   "Rue H",
+   "Martino S",
+   "Chopin N"
+  ],
+  "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations",
+  "journal": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+  "year": 2009,
+  "vol": "71",
+  "issue": "2",
+  "pages": "319-392",
+  "doi": "10.1111/j.1467-9868.2008.00700.x",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "J R Stat Soc Series B Stat Methodol"
+ },
+ "sari2009physical": {
+  "type": "journal",
+  "authors": [
+   "Sari N"
+  ],
+  "title": "Physical inactivity and its impact on healthcare utilization",
+  "journal": "Health Economics",
+  "year": 2009,
+  "vol": "18",
+  "issue": "8",
+  "pages": "885-901",
+  "doi": "10.1002/hec.1408",
+  "pmid": "18792089",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Econ"
+ },
+ "shaw2017social": {
+  "type": "journal",
+  "authors": [
+   "Shaw JG",
+   "Farid M",
+   "Noel-Miller C",
+   "Joseph N",
+   "Houser A",
+   "Asch SM",
+   "Bhattacharya J",
+   "Flowers L"
+  ],
+  "title": "Social isolation and Medicare spending: among older adults, objective social isolation increases expenditures while loneliness does not",
+  "journal": "Journal of Aging and Health",
+  "year": 2017,
+  "vol": "29",
+  "issue": "7",
+  "pages": "1119-1143",
+  "doi": "10.1177/0898264317703559",
+  "pmid": "29545676",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "J Aging Health"
+ },
+ "simpson2017penalising": {
+  "type": "journal",
+  "authors": [
+   "Simpson D",
+   "Rue H",
+   "Riebler A",
+   "Martins TG",
+   "Sørbye SH"
+  ],
+  "title": "Penalising model component complexity: a principled, practical approach to constructing priors",
+  "journal": "Statistical Science",
+  "year": 2017,
+  "vol": "32",
+  "issue": "1",
+  "pages": "1-28",
+  "doi": "10.1214/16-sts576",
+  "verified": "Crossref 2026-11-13",
+  "jabbr": "Stat Sci"
+ },
+ "steegen2016increasing": {
+  "type": "journal",
+  "authors": [
+   "Steegen S",
+   "Tuerlinckx F",
+   "Gelman A",
+   "Vanpaemel W"
+  ],
+  "title": "Increasing transparency through a multiverse analysis",
+  "journal": "Perspectives on Psychological Science",
+  "year": 2016,
+  "vol": "11",
+  "issue": "5",
+  "pages": "702-712",
+  "doi": "10.1177/1745691616658637",
+  "pmid": "27694465",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Perspect Psychol Sci"
+ },
+ "tsuji2003impact": {
+  "type": "journal",
+  "authors": [
+   "Tsuji I",
+   "Takahashi K",
+   "Nishino Y",
+   "Ohkubo T",
+   "Kuriyama S",
+   "Watanabe Y",
+   "Anzai Y",
+   "Tsubono Y",
+   "Hisamichi S"
+  ],
+  "title": "Impact of walking upon medical care expenditure in Japan: the Ohsaki Cohort Study",
+  "journal": "International Journal of Epidemiology",
+  "year": 2003,
+  "vol": "32",
+  "issue": "5",
+  "pages": "809-814",
+  "doi": "10.1093/ije/dyg189",
+  "pmid": "14559755",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Int J Epidemiol"
+ },
+ "vonelm2007strengthening": {
+  "type": "journal",
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+  "journal": "Lancet",
+  "year": 2007,
+  "vol": "370",
+  "issue": "9596",
+  "pages": "1453-1457",
+  "doi": "10.1016/S0140-6736(07)61602-X",
+  "pmid": "18064739",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Lancet"
+ },
+ "web:mois2026population": {
+  "type": "web",
+  "authors": "Ministry of the Interior and Safety",
+  "title": "Resident registration population by district, sex and 5-year age group, 2011-2024",
+  "url": "https://jumin.mois.go.kr",
+  "year": 2026,
+  "accessed": "20 October 2026"
+ },
+ "web:nhis2026regional": {
+  "type": "web",
+  "authors": "National Health Insurance Service",
+  "title": "Regional medical use statistics: medical use by sex and age group, district of residence (TX_35003), and medical use by type of insurance and place of care, 2011-2024. Korean Statistical Information Service",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "13 November 2026"
+ },
+ "web:rcore2026": {
+  "type": "web",
+  "authors": "R Core Team",
+  "title": "R: a language and environment for statistical computing. Version 4.6.0. Vienna: R Foundation for Statistical Computing",
+  "url": "https://www.R-project.org/",
+  "year": 2026,
+  "accessed": "20 October 2026"
+ },
+ "wennberg1973small": {
+  "type": "journal",
+  "authors": [
+   "Wennberg J",
+   "Gittelsohn"
+  ],
+  "title": "Small area variations in health care delivery",
+  "journal": "Science",
+  "year": 1973,
+  "vol": "182",
+  "issue": "4117",
+  "pages": "1102-1108",
+  "doi": "10.1126/science.182.4117.1102",
+  "pmid": "4750608",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Science"
+ },
+ "wennberg1987hospital": {
+  "type": "journal",
+  "authors": [
+   "Wennberg JE",
+   "Freeman JL",
+   "Culp WJ"
+  ],
+  "title": "Are hospital services rationed in New Haven or over-utilised in Boston?",
+  "journal": "Lancet",
+  "year": 1987,
+  "vol": "1",
+  "issue": "8543",
+  "pages": "1185-1189",
+  "doi": "10.1016/s0140-6736(87)92152-0",
+  "pmid": "2883497",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Lancet"
+ },
+ "wennberg2002geography": {
+  "type": "journal",
+  "authors": [
+   "Wennberg JE",
+   "Fisher ES",
+   "Skinner JS"
+  ],
+  "title": "Geography and the debate over Medicare reform",
+  "journal": "Health Affairs",
+  "year": 2002,
+  "vol": "Suppl Web Exclusives",
+  "issue": "",
+  "pages": "W96-114",
+  "doi": "10.1377/hlthaff.w2.96",
+  "pmid": "12703563",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Aff (Millwood)"
+ },
+ "yoo2016impact": {
+  "type": "journal",
+  "authors": [
+   "Yoo KB",
+   "Ahn HU",
+   "Park EC",
+   "Kim TH",
+   "Kim SJ",
+   "Kwon JA",
+   "Lee SG"
+  ],
+  "title": "Impact of co-payment for outpatient utilization among Medical Aid beneficiaries in Korea: a 5-year time series study",
+  "journal": "Health Policy",
+  "year": 2016,
+  "vol": "120",
+  "issue": "8",
+  "pages": "960-966",
+  "doi": "10.1016/j.healthpol.2016.07.001",
+  "pmid": "27499450",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "Health Policy"
+ },
+ "zuckerman2010clarifying": {
+  "type": "journal",
+  "authors": [
+   "Zuckerman S",
+   "Waidmann T",
+   "Berenson R",
+   "Hadley J"
+  ],
+  "title": "Clarifying sources of geographic differences in Medicare spending",
+  "journal": "The New England Journal of Medicine",
+  "year": 2010,
+  "vol": "363",
+  "issue": "1",
+  "pages": "54-62",
+  "doi": "10.1056/NEJMsa0909253",
+  "pmid": "20463333",
+  "verified": "PubMed esummary 2026-11-13",
+  "jabbr": "N Engl J Med"
+ }
+}

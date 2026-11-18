@@ -1,0 +1,218 @@
+{
+ "tag": "HCUV",
+ "outcome_column": "ext__hcuv_visit_days",
+ "outcome_label_en": "Health care visit-days (inpatient days plus outpatient visit days, all diagnoses; NHIS, annual, place of residence)",
+ "disease_en": "All-cause health care use (visit-days)",
+ "disease_ko": "건강보험 전체 진료 입내원일수",
+ "forced": [
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+  "ext__pop80_share"
+ ],
+ "negative_controls": [
+  "ext__cpr_awareness_rate",
+  "ext__road_pavement_rate",
+  "ext__fires_per_10000"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__basic_livelihood_rate",
+   "ext__medical_aid1_patients_per_100k",
+   "ext__older_single_household_share",
+   "ext__good_self_rated_health_rate",
+   "ext__screening_suspected_diabetes_share",
+   "ext__screening_suspected_hypertension_share",
+   "ext__clinics_per_100k",
+   "ext__beds_per_1000",
+   "ext__ltc_hospitals_per_100k_65",
+   "ext__walking_practice_rate",
+   "ext__moderate_pa_rate",
+   "ext__public_sports_facilities_per_100k"
+  ],
+  "S2_core": [
+   "ext__basic_livelihood_rate",
+   "ext__medical_aid1_patients_per_100k",
+   "ext__clinics_per_100k",
+   "ext__beds_per_1000",
+   "ext__ltc_hospitals_per_100k_65"
+  ],
+  "S3_physical_activity": [
+   "ext__walking_practice_rate",
+   "ext__moderate_pa_rate",
+   "ext__public_sports_facilities_per_100k"
+  ],
+  "S4_need": [
+   "ext__basic_livelihood_rate",
+   "ext__medical_aid1_patients_per_100k",
+   "ext__older_single_household_share",
+   "ext__good_self_rated_health_rate",
+   "ext__screening_suspected_diabetes_share",
+   "ext__screening_suspected_hypertension_share"
+  ],
+  "S5_supply": [
+   "ext__clinics_per_100k",
+   "ext__beds_per_1000",
+   "ext__ltc_hospitals_per_100k_65"
+  ],
+  "S6_need_supply": [
+   "ext__basic_livelihood_rate",
+   "ext__medical_aid1_patients_per_100k",
+   "ext__older_single_household_share",
+   "ext__good_self_rated_health_rate",
+   "ext__screening_suspected_diabetes_share",
+   "ext__screening_suspected_hypertension_share",
+   "ext__clinics_per_100k",
+   "ext__beds_per_1000",
+   "ext__ltc_hospitals_per_100k_65"
+  ]
+ },
+ "transform": {
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구": "share_of_pop(도시지역인구÷population(마스터))",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)": "none",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)": "none",
+  "ext__pop80_share": "none",
+  "ext__basic_livelihood_rate": "none",
+  "ext__medical_aid1_patients_per_100k": "none",
+  "ext__older_single_household_share": "none",
+  "ext__good_self_rated_health_rate": "none",
+  "ext__screening_suspected_diabetes_share": "none",
+  "ext__screening_suspected_hypertension_share": "none",
+  "ext__clinics_per_100k": "none",
+  "ext__beds_per_1000": "none",
+  "ext__ltc_hospitals_per_100k_65": "none",
+  "ext__walking_practice_rate": "none",
+  "ext__moderate_pa_rate": "none",
+  "ext__public_sports_facilities_per_100k": "none",
+  "ext__outside_care_share": "none",
+  "ext__general_hospitals_per_100k": "none",
+  "ext__public_health_centre_use_rate": "none",
+  "ext__cpr_awareness_rate": "none",
+  "ext__road_pavement_rate": "none",
+  "ext__fires_per_10000": "none"
+ },
+ "expected_direction": {
+  "ext__basic_livelihood_rate": "+",
+  "ext__medical_aid1_patients_per_100k": "+",
+  "ext__older_single_household_share": "+",
+  "ext__good_self_rated_health_rate": "-",
+  "ext__screening_suspected_diabetes_share": "+",
+  "ext__screening_suspected_hypertension_share": "+",
+  "ext__clinics_per_100k": "+",
+  "ext__beds_per_1000": "+",
+  "ext__ltc_hospitals_per_100k_65": "+",
+  "ext__walking_practice_rate": "-",
+  "ext__moderate_pa_rate": "-",
+  "ext__public_sports_facilities_per_100k": "-"
+ },
+ "rules": {
+  "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+  "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+  "credible": "95% CrI 1 제외",
+  "vif_drop": 10,
+  "multiverse_specs": 200,
+  "main_model_note": "주모형 = S1_narrative_full(가설 12 + 강제통제 5). 세트를 다시 바꾸지 않음. VIF>10 유지·보고. 필요 대 공급 판정 = 필요 축(수급률·의료급여 1종)과 공급 축(강제통제 의사 밀도 + 의원·병상·요양병원) 계수를 같은 모형에서 1 SD당 비로 비교하고, 지역 간·지역 내 분해와 KH II/IV에서 유지되는지로 판정"
+ },
+ "note": "Exposures chosen from the Andersen behavioural model and the supply-sensitive care literature: need (Medical Aid type 1 beneficiaries, basic livelihood recipients, older adults living alone, good self-rated health, suspected diabetes and hypertension at screening), supply (clinics, hospital beds, long-term care hospitals; physician density as a fixed adjustment) and population physical activity (walking, moderate-intensity activity, public sports facilities).",
+ "extra_columns": {
+  "ext__hcuv_visit_days": [
+   "HCUV_Estd2.csv",
+   "cases"
+  ],
+  "ext__pop80_share": [
+   "HCUV_Estd2.csv",
+   "pop80_share_raw"
+  ],
+  "ext__basic_livelihood_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "basic_livelihood_rate"
+  ],
+  "ext__medical_aid1_patients_per_100k": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "medical_aid1_patients_per_100k"
+  ],
+  "ext__older_single_household_share": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "older_single_household_share"
+  ],
+  "ext__good_self_rated_health_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "good_self_rated_health_rate"
+  ],
+  "ext__screening_suspected_diabetes_share": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "screening_suspected_diabetes_share"
+  ],
+  "ext__screening_suspected_hypertension_share": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "screening_suspected_hypertension_share"
+  ],
+  "ext__clinics_per_100k": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "clinics_per_100k"
+  ],
+  "ext__beds_per_1000": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "beds_per_1000"
+  ],
+  "ext__ltc_hospitals_per_100k_65": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "ltc_hospitals_per_100k_65"
+  ],
+  "ext__walking_practice_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "walking_practice_rate"
+  ],
+  "ext__moderate_pa_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "moderate_pa_rate"
+  ],
+  "ext__public_sports_facilities_per_100k": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "public_sports_facilities_per_100k"
+  ],
+  "ext__outside_care_share": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "outside_care_share"
+  ],
+  "ext__general_hospitals_per_100k": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "general_hospitals_per_100k"
+  ],
+  "ext__public_health_centre_use_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "public_health_centre_use_rate"
+  ],
+  "ext__cpr_awareness_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "cpr_awareness_rate"
+  ],
+  "ext__road_pavement_rate": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "road_pavement_rate"
+  ],
+  "ext__fires_per_10000": [
+   "EXT_canonical_pool_HCUV_261113.csv",
+   "fires_per_10000"
+  ]
+ },
+ "sensitivity_only_extra": [
+  "ext__outside_care_share",
+  "ext__general_hospitals_per_100k",
+  "ext__public_health_centre_use_rate"
+ ],
+ "offset_E_column": "E_age",
+ "offset_E_label": "age-standardised E, 9 ten-year bands, sexes combined (E_age)",
+ "offset_E_file": "HCUV_Estd2.csv",
+ "graph": "593-edge contact graph, ST_GRAPH=04_분석/HCUV/graph_593.graph",
+ "population_override": [
+  {
+   "year": 2023,
+   "fbd_region": "경상남도창원시",
+   "population": 1009038,
+   "source": "KOSIS DT_1YL20651E 2023 통합창원시 계; FBD_DATA_ZIP/2023.csv 창원 블록이 2022값 복사(유방암 11/4 population_final_audit)"
+  }
+ ]
+}

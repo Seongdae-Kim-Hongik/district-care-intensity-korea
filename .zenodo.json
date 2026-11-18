@@ -1,0 +1,22 @@
+{
+ "title": "Medical Aid enrolment rather than physician supply marks the Korean districts with the heaviest health care use: analysis code",
+ "upload_type": "software",
+ "license": "MIT",
+ "creators": [
+  {
+   "name": "Kim, Seongdae",
+   "affiliation": "Hongik University",
+   "orcid": "0000-0002-1525-0091"
+  }
+ ],
+ "keywords": [
+  "health care utilization",
+  "small-area variation",
+  "supply-sensitive care",
+  "Medical Aid",
+  "spatio-temporal",
+  "INLA",
+  "Korea"
+ ],
+ "description": "Analysis code (code only, no data) for a district-level study of sex-age standardised health care use (inpatient days plus outpatient visit-days) across 229 districts of South Korea, 2011-2024."
+}
